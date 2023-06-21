@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UserPage</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+  <body class="userpage">
+    <div class="out-container">
+      <div class="input_data">
+        <div class="welcomeMsg"></div>
+
+        <form class="inputs">
+          <h2>Create post</h2>
+          <input class="input_feild" type="text" placeholder="Url" id="image" />
+          <input
+            class="input_feild"
+            type="text"
+            placeholder="title"
+            id="title"
+          />
+          <textarea
+            wrap="off"
+            maxlength="173"
+            class="textarea"
+            placeholder="Article"
+            id="article"
+          ></textarea>
+
+          <button type="submit" id="Save_post" class="Click postbtn">
+            post
+          </button>
+        </form>
+      </div>
+      <div class="boxs"></div>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
